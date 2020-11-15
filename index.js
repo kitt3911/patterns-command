@@ -1,7 +1,7 @@
 class Todo{
     constructor(action,isDone_ = false){
         this.action = action
-        this.isDone = isDone_
+        this.isDone_ = isDone_
     }
 
     done(){
