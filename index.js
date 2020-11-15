@@ -49,6 +49,8 @@ class Command{
 }
 
 const command = new Command(new Todos())
-console.log(command.execute('addTodo','lets go to the school'))
-console.log(command.execute('addTodo','lets go the shop'))
+command.execute('addTodo','lets go to the school')
+command.execute('addTodo','lets go the shop')
+console.log(command.execute('getTodos'))
+console.log('==========================')
 console.log(command.commandExecuted)
