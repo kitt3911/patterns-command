@@ -1,0 +1,10 @@
+{
+  "name": "facade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ivan Ignatenko",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
